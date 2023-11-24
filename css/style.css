@@ -1,8 +1,5 @@
 * {
     box-sizing: border-box;
-    border: solid red 1px;
+    border: solid red 1px; /* Pour voir comment et où sont mes border */
 }
 
-h1 {
-    font-family: 'Oswald';
-}
