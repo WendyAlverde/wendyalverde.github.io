@@ -1,5 +1,44 @@
 * {
     box-sizing: border-box;
-    border: solid red 1px; /* Pour voir comment et où sont mes border */
 }
 
+body {
+    background-color: #eef7f4;
+    text-align: center;
+    padding: 30px 40px 20px;
+}
+
+/* Permet de faire un condensé plutôt que répété les même choses dans chaques tagname, id, class */
+header, #containerInfos, #containerInteret, #containerExperience {
+    background-color: #d6e7e1;
+    box-shadow: 5px 5px 5px #9ab4ab;
+    margin: 0px 0px 20px;
+    display: flex;
+}
+
+/* Les titres, span, em */
+h1, h2, h3 {
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2, h3 {
+    color: #019233;  
+}
+
+em {
+    font-weight: bold;
+}
+
+span {
+    color: #019233;
+}
+
+/* Les infos perso plus paragraphhe */
+
+
+/* centre interet */
+
+
+/* Formations et expériences*/
