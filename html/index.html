@@ -11,22 +11,27 @@
 
     <body>
         <header>
-            <div class="right">
-                <!-- Ajout d'une photo perso (en png)--> 
-            </div>
-            <div class="left">
-                <h1>Curriculum Vitae
-                    <strong id="sub-title">Wendy Alverde</strong></h1> <!-- h1 en haut, subtitle juste en dessous centré -->
-                <h2>Développeuse web et web mobile Junior</h2>
-            </div>      
+            <!-- Mettre header même genre que Portfolio -->
         </header>
 
         <main>
-            <div id="containerInfos">
-                <div id="right"><!-- Description -->
+
+            <section id="containerPerso">
+                <div class="left">
+                    <!-- Ajout d'une photo perso (en png)--> 
+                </div>
+                <div class="right">
+                    <h1>Curriculum Vitae
+                        <strong id="sub-title">Wendy Alverde</strong></h1> <!-- h1 en haut, subtitle juste en dessous centré -->
+                    <h2>Développeuse web et web mobile Junior</h2>
+                </div>      
+            </section>
+
+            <section id="containerInfos">
+                <div class="left"><!-- Description -->
                     <p>À la recherche d'un poste de Développeuse Web aux alentours de Strasbourg et Haguenau dès <span>mai 2024</span>. À cette date j'aurais reçu mon <em>Titre Professionnel niveau Bac+2 de Développeuse Web et Web Mobile</em>.</p>
                 </div>
-                <div id="left"><!-- Info perso -->
+                <div class="right"><!-- Info perso -->
                     <ul>
                         <li>alverdew@gmail.com</li> <!-- Il faudrait que pour chacunes informations je mettre une petite image comme sur le cv pdf -->
                         <li>0784588343</li>
@@ -41,105 +46,123 @@
                             <li>@chat_push</li><!-- Instagram -->
                         </ul>
                 </div>
-            </div>
+            </section>
 
-            <div id="containerInteret">
-                <h3>Informatique</h3> <!-- Le plus à gauche -->
-                    <h4>Autoformation 2022 - 2023</h4>
+            <section id="containerInteret">
+                <div id="containerLeft">
+                    <h3>Informatique</h3> <!-- Le plus à gauche -->
+                        <h4>Autoformation 2022 - 2023</h4>
+                            <ul>
+                                <li>Futur Engineer : Python et Blockly</li>
+                                <li>OpenClassrooms : Mooc HTML5, CSS3 et JavaScript</li>
+                                <li>YouTube : Tutos HTML, CSS et JavaScript</li>
+                            </ul>
+                        <h4>Réalisation d'un portfolio</h4>
+                            <ul>
+                                <li>Écrire du code en HTML, CSS et JavaScript</li>
+                                <li><!-- Lien du portfolio refait avec mes nouvelles connaissances et nouvelles idées--></li>
+                            </ul>
+                </div>
+                <div id="containerMid">
+                    <h3>Centres d'intérêt</h3> <!-- Au milieu -->
+                        <h4>Pratiques artistiques</h4>
+                            <ul>
+                                <li>Photographie</li>
+                                <li>Puzzle</li>
+                                <li>Dessin</li>
+                            </ul>
+                        <h4>Voyages</h4>
+                            <ul>
+                                <li>3 ans au Québec</li>
+                                <li>Camping nature</li>
+                                <li>Road trip</li>
+                            </ul>
+                        <h4>Activités sportives</h4>
+                            <ul>
+                                <li>Ski</li>
+                                <li>Randonnée</li>
+                            </ul>
+                </div>
+                <div id="containerRight">
+                    <h3>Atouts</h3> <!-- Le plus à droite -->
                         <ul>
-                            <li>Futur Engineer : Python et Blockly</li>
-                            <li>OpenClassrooms : Mooc HTML5, CSS3 et JavaScript</li>
-                            <li>YouTube : Tutos HTML, CSS et JavaScript</li>
+                            <li class="atouts">Rigoureuse</li>
+                            <li class="atouts">Capacité d'adaptation</li>
+                            <li class="atouts">Autonome</li>
+                            <li class="atouts">Travail d'équipe</li>
+                            <li class="atouts">Sens de l'organisation</li>
+                            <li class="atouts">Sens de l'organisation</li>
+                            <li class="atouts">Minutieuse</li>
                         </ul>
-                    <h4>Réalisation d'un portfolio</h4>
-                        <ul>
-                            <li>Écrire du code en HTML, CSS et JavaScript</li>
-                            <li><!-- Lien du portfolio refait avec mes nouvelles connaissances et nouvelles idées--></li>
-                        </ul>
-                <h3>Centres d'intérêt</h3> <!-- Au milieu -->
-                    <h4>Pratiques artistiques</h4>
-                        <ul>
-                            <li>Photographie</li>
-                            <li>Puzzle</li>
-                            <li>Dessin</li>
-                        </ul>
-                    <h4>Voyages</h4>
-                        <ul>
-                            <li>3 ans au Québec</li>
-                            <li>Camping nature</li>
-                            <li>Road trip</li>
-                        </ul>
-                    <h4>Activités sportives</h4>
-                        <ul>
-                            <li>Ski</li>
-                            <li>Randonnée</li>
-                        </ul>
-                <h3>Atouts</h3> <!-- Le plus à droite -->
-                    <ul>
-                        <li class="atouts">Rigoureuse</li>
-                        <li class="atouts">Capacité d'adaptation</li>
-                        <li class="atouts">Autonome</li>
-                        <li class="atouts">Travail d'équipe</li>
-                        <li class="atouts">Sens de l'organisation</li>
-                        <li class="atouts">Sens de l'organisation</li>
-                        <li class="atouts">Minutieuse</li>
-                    </ul>
-            </div>
+                </div>
+            </section>
 
-            <div id="containerExperience">
-                <h3>Diplômes et Formations</h3>
-                    <h4><em>Développeur Web et Web Mobile</em> ― <span>O'Clock</span> | Distantiel</h4> 
-                    <p class="date">Depuis octobre 2023</p>
-                        <ul>
-                            <li>HTML, CSS, PHP, JavaScript</li>
-                        </ul>
-                    <h4><em>Num & Boost</em> ― <span>CCI Campus</span> | Distantiel</h4> 
-                        <p class="date">De mars 2023 à avril 2023</p>
+            <section id="containerExperience">
+                <div class="left">
+                    <h3>Diplômes et Formations</h3>
+                        <h4><em>Développeur Web et Web Mobile</em> ― <span>O'Clock</span> | Distantiel</h4> 
+                        <p class="date">Depuis octobre 2023</p>
                             <ul>
-                                <li>HTML, CSS, JavaScript</li>
-                                <li>Algorithme</li>
-                                <li>Cybersécurité</li>
-                                <li>Marketing</li>
+                                <li>HTML, CSS, PHP, JavaScript</li>
                             </ul>
-                    <h4><em>Études collégiales en technologie forestière</em> ― <span>Cégep</span> | Baie-Comeau,Canada</h4>
-                        <p class="date">D'août 2018 à février 2021</p>
+                        <h4><em>Num & Boost</em> ― <span>CCI Campus</span> | Distantiel</h4> 
+                            <p class="date">De mars 2023 à avril 2023</p>
+                                <ul>
+                                    <li>HTML, CSS, JavaScript</li>
+                                    <li>Algorithme</li>
+                                    <li>Cybersécurité</li>
+                                    <li>Marketing</li>
+                                </ul>
+                        <h4><em>Études collégiales en technologie forestière</em> ― <span>Cégep</span> | Baie-Comeau,Canada</h4>
+                            <p class="date">D'août 2018 à février 2021</p>
+                                <ul>
+                                    <li>Utilisation des logiciels : ArcGIS, QGIS, Excel, Word, LiDAR</li>
+                                </ul>
+                        <h4><em>Études collégiales en technique d'aménagement cynégétique et halieutique</em> ― <span>Cégep</span> | Baie-Comeau, Canada</h4>
+                            <p class="date">D'août 2017 à juin 2018</p>
+                        <h4><em>Baccalauréat en science technique de l'industrie et développement durable</em> ― <span>Lycée Dhuoda</span> | Nîmes</h4>
+                            <p class="date">De septembre 2014 à juin 2016</p>
                             <ul>
-                                <li>Utilisation des logiciels : ArcGIS, QGIS, Excel, Word, LiDAR</li>
+                                <li>Option système informatique et numérique</li>
                             </ul>
-                    <h4><em>Études collégiales en technique d'aménagement cynégétique et halieutique</em> ― <span>Cégep</span> | Baie-Comeau, Canada</h4>
-                        <p class="date">D'août 2017 à juin 2018</p>
-                    <h4><em>Baccalauréat en science technique de l'industrie et développement durable</em> ― <span>Lycée Dhuoda</span> | Nîmes</h4>
-                        <p class="date">De septembre 2014 à juin 2016</p>
-                        <ul>
-                            <li>Option système informatique et numérique</li>
-                        </ul>
-                <h3>Expériences professionnelles</h3>
-                    <h4><em>Agent d'entretien</em> ― <span>Alsa Bio Concept SAS</span> | Colmar</h4>
-                        <p class="date">De mai 2021 à septembre 2022</p>
-                            <ul>
-                                <li>Règles de sécurité et d'hygiène</li>
-                                <li>Nettoyage intérieur et extérieur</li>
-                                <li>Désinfection COVID</li>
-                            </ul>
-                    <h4><em>Laborantine et ouvrière agricole</em> ― <span>Centre d’Expérimentation et de Développement en Forêt Boréal</span> | Baie-Comeau, Québec</h4>
-                        <p class="date">De mai 2020 à février 2021</p>
-                            <ul>
-                                <li>Préparation des champs et apiculture ponctuelle</li>
-                                <li>Écriture d'un journal de bord</li>
-                                <li>Décontamination, repiquage et multiplication de plantes</li>
-                                <li>Fabrication de milieu et tourbe</li>
-                            </ul>
-                    <h4><em>Laborantine</em> ― <span>Société de Protection des Forêts contre les Insectes et Maladies</span> | Baie-Comeau, Québec</h4>
-                        <p class="date">De juillet 2018 à août 2018</p>
-                            <ul>
-                                <li>Études des rapports entre insectes et branches en laboratoire</li>
-                            </ul>
+                </div>
+                <div class="right">
+                    <h3>Expériences professionnelles</h3>
+                        <h4><em>Agent d'entretien</em> ― <span>Alsa Bio Concept SAS</span> | Colmar</h4>
+                            <p class="date">De mai 2021 à septembre 2022</p>
+                                <ul>
+                                    <li>Règles de sécurité et d'hygiène</li>
+                                    <li>Nettoyage intérieur et extérieur</li>
+                                    <li>Désinfection COVID</li>
+                                </ul>
+                        <h4><em>Laborantine et ouvrière agricole</em> ― <span>Centre d’Expérimentation et de Développement en Forêt Boréal</span> | Baie-Comeau, Québec</h4>
+                            <p class="date">De mai 2020 à février 2021</p>
+                                <ul>
+                                    <li>Préparation des champs et apiculture ponctuelle</li>
+                                    <li>Écriture d'un journal de bord</li>
+                                    <li>Décontamination, repiquage et multiplication de plantes</li>
+                                    <li>Fabrication de milieu et tourbe</li>
+                                </ul>
+                        <h4><em>Laborantine</em> ― <span>Société de Protection des Forêts contre les Insectes et Maladies</span> | Baie-Comeau, Québec</h4>
+                            <p class="date">De juillet 2018 à août 2018</p>
+                                <ul>
+                                    <li>Études des rapports entre insectes et branches en laboratoire</li>
+                                </ul>
+                </div>
+            </section>
+
+            <section id="langues">
                 <h3>Langues</h3>
                     <h1>Anglais</h1>
                         <p>Niveau A2</p>
-            </div>
+            </section>
             
         </main>
+
+        <footer>
+            <!-- Mettre footer même genre que Portfolio -->
+        </footer>
+
     <!--  -->
     </body>
 

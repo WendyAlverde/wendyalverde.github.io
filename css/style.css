@@ -5,15 +5,17 @@
 body {
     background-color: #eef7f4;
     text-align: center;
-    padding: 30px 40px 20px;
+    
+    padding: 30px 12% 20px 12%;
 }
 
 /* Permet de faire un condensé plutôt que répété les même choses dans chaques tagname, id, class */
-header, #containerInfos, #containerInteret, #containerExperience {
+#containerPerso, #containerInfos, #containerInteret, #containerExperience {
     background-color: #d6e7e1;
     box-shadow: 5px 5px 5px #9ab4ab;
     margin: 0px 0px 20px;
     display: flex;
+    
 }
 
 /* Les titres, span, em */
@@ -39,6 +41,27 @@ span {
 
 
 /* centre interet */
+#containerInteret {
+    display: flex;
+    
+}
 
+#containerRight, #containerMid, #containerLeft {
+    width: 33.33%;
+    flex-direction: column;
+}
+
+.right, .left {
+    width: 50%;
+    flex-direction: column;
+}
 
 /* Formations et expériences*/
+
+
+#langues {
+    background-color: #d6e7e1;
+    box-shadow: 5px 5px 5px #9ab4ab;
+    margin: 0px 0px 20px;
+    
+}
